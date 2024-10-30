@@ -12,7 +12,7 @@ export const Footer = () => {
         </span>
         <ul className="flex flex-wrap items-center mt-3 text-base font-medium text-white">
           <li>
-            <a href="" className="hover:underline me-6 flex gap-2 items-center">
+            <a href="https://github.com/Ariemaharrucha" target="_blank" className="hover:underline me-6 flex gap-2 items-center">
               <FaGithub size={30}/> Github
             </a>
           </li>

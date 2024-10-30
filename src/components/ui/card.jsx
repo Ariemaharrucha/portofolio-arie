@@ -1,12 +1,12 @@
 export const Card = (props) => {
-  const { url, stack = [], desc } = props;
+  const {title, url, stack = [], desc } = props;
   return (
     <div className="w-96 flex flex-col shadow-xl rounded-md   overflow-hidden">
       <div className="h-[200px]">
         <img src={url} alt="" className="h-full w-full object-cover" />
       </div>
       <div className="flex-1 flex-col p-4 space-y-4">
-        <h3>Title</h3>
+        <h3>{title}</h3>
         <p>
           {desc}
         </p>
