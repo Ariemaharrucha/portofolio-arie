@@ -1,4 +1,5 @@
 import { AboutSection } from "../components/section/about.section.jsx";
+import { AosWrapper } from "../components/section/aos.wrapper.jsx";
 import { ArticleSection } from "../components/section/article.section.jsx";
 import { ContactSection } from "../components/section/contact.section.jsx";
 import { HeroSection } from "../components/section/hero.section.jsx";
@@ -9,7 +10,7 @@ import { Navbar } from "../components/shared/navbar.jsx";
 export const App = () => {
   return (
     <main className="bg-white font-poppins ">
-      <section>
+      <AosWrapper>
         <Navbar />
         <HeroSection />
         <AboutSection />
@@ -17,7 +18,7 @@ export const App = () => {
         <ContactSection />
         <ArticleSection />
         <Footer />
-      </section>
+      </AosWrapper>
     </main>
   );
 };

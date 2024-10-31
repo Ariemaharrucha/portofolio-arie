@@ -1,7 +1,7 @@
 export const Card = (props) => {
   const {title, image, stack = [], desc, url } = props;
   return (
-    <div className="w-[360px] flex flex-col shadow-xl rounded-lg overflow-hidden border-2 border-gray-300">
+    <div className="w-[360px] flex flex-col shadow-xl rounded-lg overflow-hidden border-2 border-gray-300" data-aos="zoom-in-up">
       <div className="h-[200px] overflow-hidden border-2 ">
         <img src={image} alt="" className="h-full w-full object-cover" />
       </div>

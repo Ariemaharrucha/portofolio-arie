@@ -21,11 +21,12 @@ export const HeroSection = () => {
           </button>
         </div>
         <div className="col-span-1 flex justify-between items-center overflow-hidden ">
-          <div className="overflow-hidden">
+          <div className="overflow-hidden" data-aos="fade-left">
             <img
               src="https://img.freepik.com/free-psd/3d-nft-icon-digital-artist-male_629802-8.jpg?t=st=1729233912~exp=1729237512~hmac=2219279ed7e89d689c0eb487a4c55f8714276e70e57f06dbd65fefa588133931&w=740"
               alt=""
               className="h-full w-full object-cover"
+              loading="lazy"
             />
           </div>
           <div className="flex flex-col gap-3">

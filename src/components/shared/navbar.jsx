@@ -1,6 +1,6 @@
 export const Navbar = () => {
   return (
-    <header className=' bg-white fixed w-full'>
+    <header className=' bg-white fixed w-full z-10'>
       <nav className="flex justify-between py-2 items-center container mx-auto">
       <div>
         <span className="font-semibold text-lg hover:text-orange-500">{`</>`}</span>
