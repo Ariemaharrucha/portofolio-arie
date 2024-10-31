@@ -4,13 +4,13 @@ import { ContactSection } from "../components/section/contact.section.jsx";
 import { HeroSection } from "../components/section/hero.section.jsx";
 import { PortofolioSection } from "../components/section/porto.section.jsx";
 import { Footer } from "../components/shared/footer.jsx";
-import { Header } from "../components/shared/header.jsx";
+import { Navbar } from "../components/shared/navbar.jsx";
 
 export const App = () => {
   return (
-    <main className="bg-white font-poppins scroll-smooth">
-      <section className=" ">
-        <Header />
+    <main className="bg-white font-poppins ">
+      <section>
+        <Navbar />
         <HeroSection />
         <AboutSection />
         <PortofolioSection />

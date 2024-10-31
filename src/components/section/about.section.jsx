@@ -6,7 +6,7 @@ import { RiTailwindCssFill } from "react-icons/ri";
 export const AboutSection = () => {
   return (
     
-    <section className='py-20 bg-red-500'>
+    <section className='py-20 bg-red-500' id="about">
     <div className='container mx-auto'>
       <h3 className='text-center font-semibold text-white mb-10'>{'<About Me />'}</h3>
       <section className='flex items-center gap-32 mt-8'>

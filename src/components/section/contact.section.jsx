@@ -2,7 +2,7 @@ import { MdOutlineEmail } from "react-icons/md";
 
 export const ContactSection = () => {
   return (
-    <section className="bg-red-500 py-20">
+    <section className="bg-red-500 py-20" id="contact">
       <div className="container mx-auto flex items-center justify-around">
         <div className="w-2/4 text-pretty">
           <h4 className="text-white ">Contact me</h4>

@@ -1,12 +1,12 @@
 export const Card = (props) => {
-  const {title, url, stack = [], desc } = props;
+  const {title, image, stack = [], desc, url } = props;
   return (
-    <div className="w-96 flex flex-col shadow-xl rounded-md   overflow-hidden">
-      <div className="h-[200px]">
-        <img src={url} alt="" className="h-full w-full object-cover" />
+    <div className="w-[360px] flex flex-col shadow-xl rounded-lg overflow-hidden border-2 border-gray-300">
+      <div className="h-[200px] overflow-hidden border-2 ">
+        <img src={image} alt="" className="h-full w-full object-cover" />
       </div>
       <div className="flex-1 flex-col p-4 space-y-4">
-        <h3>{title}</h3>
+        <h4>{title}</h4>
         <p>
           {desc}
         </p>
@@ -16,10 +16,10 @@ export const Card = (props) => {
           ))}
         </div>
       </div>
-      <div className="justify-end ">
-        <button className="px-5 py-3 bg-red-500 block w-full text-white font-semibold rounded-md border-none hover:bg-red-600 transition-all">
+      <div className="px-2 py-2 ">
+        <a className="px-5 py-3 bg-red-500 block w-full text-center text-white font-semibold rounded-md border-none hover:bg-red-600 transition-all cursor-pointer" href={url} target="_blank" >
           Projects
-        </button>
+        </a>
       </div>
     </div>
   );
