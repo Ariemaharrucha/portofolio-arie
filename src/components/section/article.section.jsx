@@ -24,6 +24,7 @@ const ArticleCard = ({url}) => {
         src={url}
         className="h-full w-full object-cover group-hover/item:brightness-50  transition-all "
         alt=""
+        loading="lazy"
       />
       <button className="px-8 py-2.5 bg-slate-200 absolute block right-5 bottom-5 rounded-md font-medium text-lg hover:bg-white invisible group-hover/item:visible transition-all ">
         Read
