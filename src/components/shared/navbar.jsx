@@ -1,4 +1,15 @@
 export const Navbar = () => {
+  const downloadCv = () => {
+    // cv belum update
+    const fileURl = '/cv_arie.pdf';
+    const link = document.createElement('a');
+    link.href = fileURl;
+    link.download = 'cv-arie.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <header className=' bg-white fixed w-full z-10'>
       <nav className="flex justify-between py-2 items-center container mx-auto">
@@ -10,7 +21,7 @@ export const Navbar = () => {
         <Nav title={'#about'}>About</Nav>
         <Nav title={'#contact'}>Contact</Nav>
         <Nav title={'#Project'}>Project</Nav>
-      <button className='px-5 py-3 bg-black text-white font-semibold rounded-md border-none'>Download CV</button>
+      <button className='px-5 py-3 bg-black text-white font-semibold rounded-md border-none'onClick={downloadCv}>Download CV</button>
       </div>   
       </nav>
     </header>

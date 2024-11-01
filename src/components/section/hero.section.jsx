@@ -11,7 +11,7 @@ export const HeroSection = () => {
       <section className="container mx-auto grid grid-cols-2 items-center text-pretty h-screen overflow-hidden">
         <div className="col-span-1 space-y-6">
           <h2 className="font-semibold text-orange-500">WEB Developere</h2>
-          <h1 className="font-semibold text-7xl">Hello 👋️ I am</h1>
+          <h1 className="font-semibold text-7xl">Hello 👋️ I am</h1> 
           <h1 className="font-semibold text-7xl">Arie maharrucha</h1>
           <p className="text-balance">
             Building responsive and intuitive web applications with the latest technology to help clients achieve their goals.

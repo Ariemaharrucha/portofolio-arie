@@ -3,7 +3,7 @@ export const Card = (props) => {
   return (
     <div className="w-[360px] flex flex-col shadow-xl rounded-lg overflow-hidden border-2 border-gray-300">
       <div className="h-[200px] overflow-hidden border-2 ">
-        <img src={image} alt="" className="h-full w-full object-cover" loading="lazy"/>
+        <img src={image} alt="" className="h-full w-full object-cover hover:scale-125 transition-all ease-in " loading="lazy"/>
       </div>
       <div className="flex-1 flex-col p-4 space-y-4">
         <h4>{title}</h4>
