@@ -2,8 +2,8 @@ import { FaGithub } from "react-icons/fa";
 
 export const Footer = () => {
   return (
-    <footer className="bg-red-500 rounded-lg shadow m-4 ">
-      <div className="w-full mx-auto max-w-screen-xl px-4 py-3.5 font-medium flex items-center justify-between">
+    <footer className="bg-red-500 rounded-lg shadow md:m-4 mx-4 my-2 overflow-hidden ">
+      <div className="w-full mx-auto max-w-screen-xl px-4 py-3.5 font-medium md:flex items-center justify-between ">
         <div className="text-base text-white  ">
           © 2024{" "}
           <a
@@ -15,7 +15,7 @@ export const Footer = () => {
           </a>
           .
         </div>
-        <div className="flex items-center font-medium text-white">
+        <div className="flex items-center mt-4 md:mt-0 font-medium text-white">
           <a
             href="https://github.com/Ariemaharrucha"
             target="_blank"

@@ -25,7 +25,7 @@ export const PortofolioSection = () => {
         className="shadow-none"
       >
         {Object.values(project).map((porto, index) => (
-          <SwiperSlide key={index}>
+          <SwiperSlide key={index} className=" px-8 md:px-0">
             <Card
               title={porto.title}
               image={porto.image}

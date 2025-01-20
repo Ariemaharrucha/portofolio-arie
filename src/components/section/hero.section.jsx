@@ -8,17 +8,17 @@ export const HeroSection = () => {
   return (
     <>
       {/* heroes */}
-      <section className="container mx-auto grid grid-cols-2 items-center text-pretty h-screen overflow-hidden">
-        <div className="col-span-1 space-y-6">
-          <h2 className="font-semibold text-orange-500">WEB Developere</h2>
-          <h1 className="font-semibold text-7xl">Hello 👋️ I am</h1> 
-          <h1 className="font-semibold text-7xl">Arie maharrucha</h1>
-          <p className="text-balance">
+      <section className="container md:mx-auto p-8 md:p-0 grid grid-cols-2 items-center text-pretty  overflow-hidden">
+        <div className="md:col-span-1 col-span-2 space-y-6">
+          <h2 className="font-semibold text-orange-500">WEB Developer</h2>
+          <h1 className="font-semibold md:text-7xl text-5xl">Hello 👋️ I am</h1> 
+          <h1 className="font-semibold md:text-7xl text-4xl">Arie maharrucha Zakka</h1>
+          <p className="text-balance text-lg md:text-base">
             Building responsive and intuitive web applications with the latest technology to help clients achieve their goals.
           </p>
         </div>
-        <div className="col-span-1 flex justify-between items-center overflow-hidden ">
-          <div className="overflow-hidden" data-aos="fade-left">
+        <div className="md:col-span-1 col-span-2 py-4 md:py-0 flex justify-between items-center overflow-hidden ">
+          <div className="overflow-hidden hidden md:block" data-aos="fade-left">
             <img
               src={hero}
               alt=""
@@ -26,7 +26,7 @@ export const HeroSection = () => {
               loading="lazy"
             />
           </div>
-          <div className="flex flex-col gap-3">
+          <div className="flex md:flex-col gap-3">
             <SocialMediaButtons>
               <a href="https://www.linkedin.com/in/arie-maharrucha-zakka-4a4b29303/" target="_blank">
               <FaLinkedin size={22} />
