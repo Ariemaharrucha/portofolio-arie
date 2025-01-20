@@ -59,7 +59,7 @@ export const project = {
         { icon: RiTailwindCssFill, style: "text-blue-400" },
       ],
       description: `aplikasi berbasis AI yang bisa membuat rencana perjalanan yang dipersonalisasi berdasarkan preferensi pengguna, tujuan, waktu dan anggaran yang tersedia`,
-      url: `/`
+      url: `https://github.com/Ariemaharrucha/Itinerary-ai`
     },
     project5: {
       title: `Unggasku-id`,
@@ -72,6 +72,6 @@ export const project = {
         { icon: FaNodeJs, style: "" },
       ],
       description: `aplikasi yang digunakan untuk membantu peternak unggas mengelola operasi mereka secara efisien, untuk konsultasi dan artikel pendidikan`,
-      url: `/`
+      url: `https://github.com/Ariemaharrucha/unggasku-id`
     },
   };

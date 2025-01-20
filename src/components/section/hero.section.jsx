@@ -2,6 +2,7 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { SocialMediaButtons } from "../ui/social.media.buttons.jsx";
+import hero from '../../assets/hero.png'
 
 export const HeroSection = () => {
   return (
@@ -19,7 +20,7 @@ export const HeroSection = () => {
         <div className="col-span-1 flex justify-between items-center overflow-hidden ">
           <div className="overflow-hidden" data-aos="fade-left">
             <img
-              src="https://img.freepik.com/free-psd/3d-nft-icon-digital-artist-male_629802-8.jpg?t=st=1729233912~exp=1729237512~hmac=2219279ed7e89d689c0eb487a4c55f8714276e70e57f06dbd65fefa588133931&w=740"
+              src={hero}
               alt=""
               className="h-full w-full object-cover"
               loading="lazy"

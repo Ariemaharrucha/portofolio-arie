@@ -7,7 +7,7 @@ export const ContactSection = () => {
         <div className="w-2/4 text-pretty" data-aos="fade-right">
           <h4 className="text-white ">Contact me</h4>
           <h2 className="text-white text-6xl mt-3">
-            Let's Discuss About Your Project
+            Let&apos;s Discuss About Your Project
           </h2>
           <button className="py-4 px-8 bg-white rounded-md font-medium mt-8 flex items-center gap-3 ">
             Get It Touch <MdOutlineEmail size={25} />{" "}
