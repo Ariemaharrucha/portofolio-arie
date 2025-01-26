@@ -15,18 +15,18 @@ export const Footer = () => {
           </a>
           .
         </div>
-        <div className="flex items-center mt-4 md:mt-0 font-medium text-white">
+        <div className="flex items-center gap-4 mt-4 md:mt-0 font-medium text-white">
           <a
             href="https://github.com/Ariemaharrucha"
             target="_blank"
-            className="hover:underline me-6 flex gap-2 items-center"
+            className="hover:underline  flex gap-2 items-center"
           >
-            <FaGithub size={30} /> Github
+            <FaGithub size={30} className="md:block hidden" /> Github
           </a>
-          <a href="#" className="hover:underline me-6">
+          <a href="#" className="hover:underline ">
             Privacy Policy
           </a>
-          <a href="#" className="hover:underline me-6">
+          <a href="#" className="hover:underline ">
             Licensing
           </a>
           <a href="#" className="hover:underline">
