@@ -1,8 +1,8 @@
-import porto1 from '../assets/porto.png';
-import porto2 from '../assets/recipe.png';
-import porto3 from '../assets/al-quran.png';
-import porto4 from '../assets/itinerary.jpg';
-import porto5 from '../assets/uggasku-id-1.png';
+import porto1 from "../assets/porto.png";
+import porto2 from "../assets/recipe.png";
+import porto3 from "../assets/al-quran.png";
+import porto4 from "../assets/itinerary.jpg";
+import porto5 from "../assets/uggasku-id-1.png";
 import { BiLogoTypescript } from "react-icons/bi";
 import {
   FaReact,
@@ -10,68 +10,74 @@ import {
   FaHtml5,
   FaCss3Alt,
   FaBootstrap,
-  FaNodeJs
+  FaNodeJs,
 } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
-import { SiExpress } from 'react-icons/si';
+import { SiExpress } from "react-icons/si";
 
 export const project = {
-    project1: {
-      title: "Simple portofolio",
-      image: porto1,
-      stack: [
-        { icon: FaHtml5, style: "text-orange-500" },
-        { icon: FaReact, style: "text-sky-700" },
-        { icon: FaJsSquare, style: "text-yellow-300" },
-        { icon: RiTailwindCssFill, style: "text-blue-400" },
-      ],
-      description: `portofolio pribadi yang menampilkan proyek-proyek saya sebagai pengembang web`,
-      url: `#`
-    },
-    project2: {
-      title: 'Catat resep makanan ',
-      image: porto2,
-      stack: [
-        { icon: FaHtml5, style: "text-orange-500" },
-        { icon: BiLogoTypescript, style: "text-sky-600" },
-        { icon: FaCss3Alt, style: "text-sky-700" },
-      ],
-      description: `Aplikasi web untuk mencatat dan menyimpan resep masakan`,
-      url: `https://resep-makanan-five.vercel.app/`
-    },
-    project3: {
-      title: `Al-qur'an apps`,
-      image: porto3,
-      stack: [
-        { icon: FaHtml5, style: "text-orange-500" },
-        { icon: FaJsSquare, style: "text-yellow-300" },
-        { icon: FaBootstrap, style: "text-violet-700" },
-      ],
-      description: `Aplikasi digital Al-Qur'an yang menyediakan teks dan terjemahan untuk setiap surat dan ayat`,
-      url: `https://al-quran-gilt.vercel.app/`
-    },
-    project4: {
-      title: `Itinerary-Ai`,
-      image: porto4,
-      stack: [
-        { icon: FaReact, style: "text-sky-700" },
-        { icon: BiLogoTypescript, style: "text-sky-600" },
-        { icon: RiTailwindCssFill, style: "text-blue-400" },
-      ],
-      description: `aplikasi berbasis AI yang bisa membuat rencana perjalanan yang dipersonalisasi berdasarkan preferensi pengguna, tujuan, waktu dan anggaran yang tersedia`,
-      url: `https://github.com/Ariemaharrucha/Itinerary-ai`
-    },
-    project5: {
-      title: `Unggasku-id`,
-      image: porto5,
-      stack: [
-        { icon: FaReact, style: "text-sky-700" },
-        { icon: FaJsSquare, style: "text-yellow-300" },
-        { icon: RiTailwindCssFill, style: "text-blue-400" },
-        { icon: SiExpress, style: "" },
-        { icon: FaNodeJs, style: "" },
-      ],
-      description: `aplikasi yang digunakan untuk membantu peternak unggas mengelola operasi mereka secara efisien, untuk konsultasi dan artikel pendidikan`,
-      url: `https://github.com/Ariemaharrucha/unggasku-id`
-    },
-  };
+  project3: {
+    title: `Al-qur'an apps`,
+    image: porto3,
+    stack: [
+      { icon: FaHtml5, style: "text-orange-500" },
+      { icon: FaJsSquare, style: "text-yellow-300" },
+      { icon: FaBootstrap, style: "text-violet-700" },
+    ],
+    description: `Aplikasi digital Al-Qur'an yang menyediakan teks dan terjemahan untuk setiap surat dan ayat`,
+    porto: `https://github.com/Ariemaharrucha/Al-quran_apps`,
+    demo: "https://al-quran-gilt.vercel.app/",
+  },
+  project5: {
+    title: `Unggasku-id`,
+    image: porto5,
+    stack: [
+      { icon: FaReact, style: "text-sky-700" },
+      { icon: FaJsSquare, style: "text-yellow-300" },
+      { icon: RiTailwindCssFill, style: "text-blue-400" },
+      { icon: SiExpress, style: "" },
+      { icon: FaNodeJs, style: "" },
+    ],
+    description: `aplikasi yang digunakan untuk membantu peternak unggas mengelola operasi mereka secara efisien, untuk konsultasi dan artikel pendidikan`,
+    porto: `https://github.com/Ariemaharrucha/unggasku-id`,
+    demo: "https://unggasku-dummy.vercel.app/",
+  },
+  project4: {
+    title: `Itinerary-Ai`,
+    image: porto4,
+    stack: [
+      { icon: FaReact, style: "text-sky-700" },
+      { icon: BiLogoTypescript, style: "text-sky-600" },
+      { icon: RiTailwindCssFill, style: "text-blue-400" },
+    ],
+    description: `aplikasi berbasis AI yang bisa membuat rencana perjalanan yang dipersonalisasi berdasarkan preferensi pengguna, tujuan, waktu dan anggaran yang tersedia`,
+    porto: `https://github.com/Ariemaharrucha/Itinerary-ai`,
+    demo: "https://itinerary-one.vercel.app/",
+  },
+
+  project1: {
+    title: "Simple portofolio",
+    image: porto1,
+    stack: [
+      { icon: FaHtml5, style: "text-orange-500" },
+      { icon: FaReact, style: "text-sky-700" },
+      { icon: FaJsSquare, style: "text-yellow-300" },
+      { icon: RiTailwindCssFill, style: "text-blue-400" },
+    ],
+    description: `portofolio pribadi yang menampilkan proyek-proyek saya sebagai pengembang web`,
+    porto: `https://github.com/Ariemaharrucha/portofolio-arie`,
+    demo: "https://portofolio-arie.vercel.app/",
+  },
+  project2: {
+    title: "Catat resep makanan ",
+    image: porto2,
+    stack: [
+      { icon: FaHtml5, style: "text-orange-500" },
+      { icon: BiLogoTypescript, style: "text-sky-600" },
+      { icon: FaCss3Alt, style: "text-sky-700" },
+    ],
+    description: `Aplikasi web untuk mencatat dan menyimpan resep masakan`,
+    porto: `https://github.com/Ariemaharrucha/daftar-resep-makanan`,
+    demo: "https://resep-makanan-five.vercel.app/",
+  },
+};

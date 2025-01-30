@@ -21,7 +21,7 @@ export const PortofolioSection = () => {
           768: { slidesPerView: 2 },
           1024: { slidesPerView: 3 },
         }}
-        autoplay={{ delay: 3000 }}
+        autoplay={{ delay: 10000 }}
         className="shadow-none"
       >
         {Object.values(project).map((porto, index) => (
@@ -31,7 +31,8 @@ export const PortofolioSection = () => {
               image={porto.image}
               stack={porto.stack}
               desc={porto.description}
-              url={porto.url}
+              porto={porto.porto}
+              demo={porto.demo}
             />
           </SwiperSlide>
         ))}
