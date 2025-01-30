@@ -17,7 +17,7 @@ export const Card = (props) => {
           <item.icon className={item.style} size={40} key={index} />
         ))}
       </div>
-      <div className="px-2 py-2 flex flex-col md:flex-row gap-2 ">
+      <div className="px-2 py-2 flex gap-2 ">
         <a className="px-5 py-3 bg-red-500 block w-full text-center text-white font-semibold rounded-md border-none hover:bg-red-600 transition-all cursor-pointer" href={porto} target="_blank" >
           Repo
         </a>
