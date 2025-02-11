@@ -9,10 +9,11 @@ import "swiper/css/pagination";
 
 export const PortofolioSection = () => {
   return (
-    <section className="container mx-auto py-20" id="Project">
+    <section className="container mx-auto py-20 overflow-hidden" id="Project">
       <div className="mb-8">
         <h3 className="text-center text-red-500 font-semibold">Portofolio</h3>
       </div>
+      <div className="md:mx-8 mx-0">
       <Swiper
         modules={[Navigation, Autoplay]}
         spaceBetween={20}
@@ -37,6 +38,7 @@ export const PortofolioSection = () => {
           </SwiperSlide>
         ))}
       </Swiper>
+      </div>
     </section>
   );
 };

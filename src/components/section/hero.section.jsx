@@ -8,7 +8,7 @@ export const HeroSection = () => {
   return (
     <>
       {/* heroes */}
-      <section className="container md:mx-auto p-8 md:p-0 grid grid-cols-2 items-center text-pretty  overflow-hidden">
+      <section className="container lg:mx-auto p-8 grid grid-cols-2 items-center text-pretty  overflow-hidden">
         <div className="md:col-span-1 col-span-2 space-y-6">
           <h2 className="font-semibold text-orange-500">WEB Developer</h2>
           <h1 className="font-semibold md:text-7xl text-5xl">Hello 👋️ I am</h1> 

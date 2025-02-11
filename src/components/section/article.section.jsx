@@ -1,6 +1,6 @@
 export const ArticleSection = () => {
   return (
-    <section className="container mx-auto md:py-20 py-10 px-8 md:px-0 space-y-10">
+    <section className="container mx-auto md:py-20 py-10 px-8 space-y-10">
       <h3 className="text-center text-red-500 font-medium">My Article</h3>
       <section className="grid grid-cols-12 md:gap-7 gap-4">
         <ArticleCard url={'https://images.unsplash.com/photo-1607706189992-eae578626c86?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'}/>
